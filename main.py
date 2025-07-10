@@ -1,10 +1,11 @@
 class Student:
-    self.name = name
-    self.surname = 
-    self.age = 10
+    def __init__(self, name, surname, age):
+        self.name = name
+        self.surname = surname
+        self.age = age
 
-    def print_ifno():
+    def print_info(self):
         print('Student:')
         print(self.name)
         print(self.surname)
-        print(age)
+        print(self.age)
